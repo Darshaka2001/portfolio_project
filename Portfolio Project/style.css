@@ -5,17 +5,39 @@ body {
 }
     
 .h1 {
-    font-size: 50px;
-}
-
-#sample-id {
+    font-size: 70px;
     background-color: #c9afaf;
-    border-radius: 10px;
-    padding: 10px;
+    padding: 30px;
     margin: 10px;
     border-radius: 50px;
 }
 
+#sample-id {
+    font-size: 20px;
+    background-color: #c9afaf;
+    border-radius: 40px;
+    padding: 20px;
+    margin: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
 #future {
     text-align: center;
+}
+
+#future-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#table-text{
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 1ff6;
+    margin-left: 22px;
+    padding-left: 22px;
+    margin-right: 22px;
+    border-right-width: 22px;
 }
