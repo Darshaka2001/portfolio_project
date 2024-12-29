@@ -1,15 +1,17 @@
 body {
-    background-color: #f0f0f0;
+    background-color: #dcd5d5;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-size: auto;
 }
     
 .h1 {
-    font-size: 70px;
+    font-size: 50px;
     background-color: #c9afaf;
     padding: 30px;
     margin: 10px;
     border-radius: 50px;
+    position: fixed;
+    align-items: center;
 }
 
 #sample-id {
@@ -40,4 +42,29 @@ body {
     padding-left: 22px;
     margin-right: 22px;
     border-right-width: 22px;
+}
+
+#about-me{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#box {
+    background-color: rgb(225, 141, 15);
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 1000px;
+    position: relative;
+    top: -815px;
+    left: 695px;
+}
+
+.contact:hover{
+    color: #ea0808;
+    font-weight: bolder;
+}
+
+::selection{
+    background-color: aquamarine;
 }
